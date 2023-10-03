@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap');
+
+.menu {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.opcao-menu {
+    padding: 15px 100px;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    font-family: 'AR One Sans';
+    color: white;
+}
+
+/* .conteudo {
+    position: absolute;
+    top: 0;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 380px;
+    z-index: 1;
+} */
+
+.wallpaper-conteudo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
